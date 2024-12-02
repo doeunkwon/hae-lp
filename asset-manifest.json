@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hae-lp/static/css/main.86559c4a.css",
-    "main.js": "/hae-lp/static/js/main.9a475cdf.js",
-    "static/js/453.0fc8bf69.chunk.js": "/hae-lp/static/js/453.0fc8bf69.chunk.js",
-    "index.html": "/hae-lp/index.html",
-    "main.86559c4a.css.map": "/hae-lp/static/css/main.86559c4a.css.map",
-    "main.9a475cdf.js.map": "/hae-lp/static/js/main.9a475cdf.js.map",
-    "453.0fc8bf69.chunk.js.map": "/hae-lp/static/js/453.0fc8bf69.chunk.js.map"
+    "main.css": "/static/css/main.86559c4a.css",
+    "main.js": "/static/js/main.c8a44663.js",
+    "static/js/453.0fc8bf69.chunk.js": "/static/js/453.0fc8bf69.chunk.js",
+    "index.html": "/index.html",
+    "main.86559c4a.css.map": "/static/css/main.86559c4a.css.map",
+    "main.c8a44663.js.map": "/static/js/main.c8a44663.js.map",
+    "453.0fc8bf69.chunk.js.map": "/static/js/453.0fc8bf69.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86559c4a.css",
-    "static/js/main.9a475cdf.js"
+    "static/js/main.c8a44663.js"
   ]
 }
