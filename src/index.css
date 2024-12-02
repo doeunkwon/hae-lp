@@ -1,11 +1,11 @@
 :root {
-  --orange-primary: #ff9b50;
+  --orange-primary: #ffaa80;
   --yellow-accent: #ffd93d;
   --cream-bg: #f6f1e9;
   --brown-dark: #4f200d;
   --orange-secondary: #ffbb5c;
   --black-light: #212529;
-  --red-error: #F05941;
+  --red-error: #EC7272;
 }
 
 body {

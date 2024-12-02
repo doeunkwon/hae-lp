@@ -130,12 +130,12 @@ const LandingPage: React.FC = () => {
             gutterBottom
             sx={{ color: "var(--orange-primary)" }}
           >
-            <strong>Hae is a chat-based personal CRM tool.</strong>
+            <strong>Hae is a chat-based personal CRM.</strong>
           </Typography>
           <Typography color="text.secondary" paragraph>
             Just speak or text to update your contacts, log interactions, and
-            retrieve relationship insights. No forms or complex interfaces
-            needed.
+            retrieve relationship insights. No annoying spreadsheets or complex
+            interfaces needed.
           </Typography>
 
           <Box
@@ -172,7 +172,9 @@ const LandingPage: React.FC = () => {
                 backgroundColor: "var(--orange-secondary)",
                 "&:hover": {
                   backgroundColor: "var(--orange-primary)",
-                  boxShadow: "0 4px 24px rgba(255, 155, 80, 0.5)",
+                  boxShadow: isSubmitting
+                    ? "none"
+                    : "0 4px 24px rgba(255, 170, 128, 0.5)",
                 },
                 "&:disabled": {
                   backgroundColor: "grey.400",
@@ -181,7 +183,7 @@ const LandingPage: React.FC = () => {
                 textTransform: "none",
               }}
             >
-              {isSubmitting ? "Submitting..." : "Join Waitlist"}
+              {isSubmitting ? "Joining..." : "Join Waitlist"}
             </Button>
           </Box>
         </Paper>
@@ -200,13 +202,13 @@ const LandingPage: React.FC = () => {
             width: "100%",
             backgroundColor:
               submitStatus === "success"
-                ? "var(--orange-secondary)"
+                ? "var(--orange-primary)"
                 : "var(--red-error)",
             color: "white",
           }}
         >
           {submitStatus === "success"
-            ? "Welcome to the Hae team! We'll be in touch soon."
+            ? "Welcome to the team! We'll be in touch soon."
             : "Oops! Please try again."}
         </Alert>
       </Snackbar>
