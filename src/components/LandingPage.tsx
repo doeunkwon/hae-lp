@@ -207,9 +207,22 @@ const LandingPage: React.FC = () => {
             color: "white",
           }}
         >
-          {submitStatus === "success"
-            ? "Welcome to the team! We'll be in touch soon."
-            : "Oops! Please try again."}
+          {submitStatus === "success" ? (
+            <>
+              Welcome aboard! Chat with us on our{" "}
+              <a
+                href="https://www.reddit.com/r/haeCRM/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "inherit", textDecoration: "underline" }}
+              >
+                Reddit community
+              </a>
+              .
+            </>
+          ) : (
+            "Oops! Please try again."
+          )}
         </Alert>
       </Snackbar>
       <Box
